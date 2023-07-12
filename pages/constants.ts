@@ -1,5 +1,5 @@
 // Define the suits and ranks
-export const SUITS: string[] = ["S", "C", "H", "D"];
+export const SUITS: string[] = ["S", "C", "D", "H"];
 export const RANKS: string[] = [
   "Three",
   "Four",

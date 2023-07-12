@@ -9,8 +9,8 @@ interface CardImageProps {
 
 export default function CardImage({ src, alt }: CardImageProps) {
   return (
-    <div style={{ width: "100px", height: "150px" }}>
-      <Image src={src} alt={alt} layout="fill" objectFit="contain" />
+    <div className="relative w-1/10 pb-10%">
+      <Image src={src} alt={alt} fill />
     </div>
   );
 }
